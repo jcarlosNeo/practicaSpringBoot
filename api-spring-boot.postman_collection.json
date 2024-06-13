@@ -1,0 +1,273 @@
+{
+	"info": {
+		"_postman_id": "9110f1ee-6fc7-44e7-bfcb-44b7e7e733fd",
+		"name": "api-spring-boot",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10354362"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:8080/api/usuarios/getUser",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJraWQiOiI2OTQ2ZjY3OC1kODQ4LTQ5ZDUtYTI2YS1lM2YxZmMxZTI2N2MiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJjYWxyb3MiLCJhdWQiOiJvaWRjLWNsaWVudCIsIm5iZiI6MTcxODI0MDM4MCwic2NvcGUiOlsicHJvZmlsZSJdLCJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjkwMDAiLCJleHAiOjE3MTgyNDA2ODAsImlhdCI6MTcxODI0MDM4MCwianRpIjoiNDUyNTcwM2UtYTI2Yi00MDIzLTg4YzItMGY3MzEwY2I1MGRhIn0.n-ZR8dc-OZiFal4cfIj-lfMiaQOC6vzhq--jiIgT5lkg2pgUOQaitM6GGr4hNwAsmnRFoHzXY1OGrtJaxz1q_ij7QY3kR7X9R3dxzsy9FKbPm3u3s51b9vDA-EOpLZHtJoZfEI1ezdIS2nhY5h5mqKRgWdm2SgGdkPgIuI1QdBrfD-hZeRbvEL54rR0vGRflk7ucZYwPv5jmCdCdgS3G60bVyuzzl9xdUMp_V0jjCYIrU2NxVzm23CadA3Bo_5Khp9ghXWdp0F1et-rH6FzRk-fGnmHRPJnD0Ds_5rZiWJRl3_8VXWLEzJScfJIvuNytgkK905t9v1b4qsLHblJe2w",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8080/api/usuarios/getUser",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"usuarios",
+						"getUser"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8080/api/usuarios/getUserByID/1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJraWQiOiI2OTQ2ZjY3OC1kODQ4LTQ5ZDUtYTI2YS1lM2YxZmMxZTI2N2MiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJjYWxyb3MiLCJhdWQiOiJvaWRjLWNsaWVudCIsIm5iZiI6MTcxODI0MDM4MCwic2NvcGUiOlsicHJvZmlsZSJdLCJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjkwMDAiLCJleHAiOjE3MTgyNDA2ODAsImlhdCI6MTcxODI0MDM4MCwianRpIjoiNDUyNTcwM2UtYTI2Yi00MDIzLTg4YzItMGY3MzEwY2I1MGRhIn0.n-ZR8dc-OZiFal4cfIj-lfMiaQOC6vzhq--jiIgT5lkg2pgUOQaitM6GGr4hNwAsmnRFoHzXY1OGrtJaxz1q_ij7QY3kR7X9R3dxzsy9FKbPm3u3s51b9vDA-EOpLZHtJoZfEI1ezdIS2nhY5h5mqKRgWdm2SgGdkPgIuI1QdBrfD-hZeRbvEL54rR0vGRflk7ucZYwPv5jmCdCdgS3G60bVyuzzl9xdUMp_V0jjCYIrU2NxVzm23CadA3Bo_5Khp9ghXWdp0F1et-rH6FzRk-fGnmHRPJnD0Ds_5rZiWJRl3_8VXWLEzJScfJIvuNytgkK905t9v1b4qsLHblJe2w",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJjYXJsb3MiLCJleHAiOjE3MTg2Njc3MzR9.IXfzkdVvudjqhGWRtmrFCb-4tG3UdPCnxt0yomt9LwUyLuXlfB4gMFu0vHRQX0tjDuXSH1Z7meHyNRYt65xFPw",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/api/usuarios/getUserByID/1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"usuarios",
+						"getUserByID",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8080/api/usuarios",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJraWQiOiI2OTQ2ZjY3OC1kODQ4LTQ5ZDUtYTI2YS1lM2YxZmMxZTI2N2MiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJjYWxyb3MiLCJhdWQiOiJvaWRjLWNsaWVudCIsIm5iZiI6MTcxODI0MDM4MCwic2NvcGUiOlsicHJvZmlsZSJdLCJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjkwMDAiLCJleHAiOjE3MTgyNDA2ODAsImlhdCI6MTcxODI0MDM4MCwianRpIjoiNDUyNTcwM2UtYTI2Yi00MDIzLTg4YzItMGY3MzEwY2I1MGRhIn0.n-ZR8dc-OZiFal4cfIj-lfMiaQOC6vzhq--jiIgT5lkg2pgUOQaitM6GGr4hNwAsmnRFoHzXY1OGrtJaxz1q_ij7QY3kR7X9R3dxzsy9FKbPm3u3s51b9vDA-EOpLZHtJoZfEI1ezdIS2nhY5h5mqKRgWdm2SgGdkPgIuI1QdBrfD-hZeRbvEL54rR0vGRflk7ucZYwPv5jmCdCdgS3G60bVyuzzl9xdUMp_V0jjCYIrU2NxVzm23CadA3Bo_5Khp9ghXWdp0F1et-rH6FzRk-fGnmHRPJnD0Ds_5rZiWJRl3_8VXWLEzJScfJIvuNytgkK905t9v1b4qsLHblJe2w",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\":\"carlos\",\r\n    \"contrasena\":\"123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/api/usuarios",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"usuarios"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8080/api/usuarios/deleteUserByID/1",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJraWQiOiI2OTQ2ZjY3OC1kODQ4LTQ5ZDUtYTI2YS1lM2YxZmMxZTI2N2MiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJjYWxyb3MiLCJhdWQiOiJvaWRjLWNsaWVudCIsIm5iZiI6MTcxODI0MDM4MCwic2NvcGUiOlsicHJvZmlsZSJdLCJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjkwMDAiLCJleHAiOjE3MTgyNDA2ODAsImlhdCI6MTcxODI0MDM4MCwianRpIjoiNDUyNTcwM2UtYTI2Yi00MDIzLTg4YzItMGY3MzEwY2I1MGRhIn0.n-ZR8dc-OZiFal4cfIj-lfMiaQOC6vzhq--jiIgT5lkg2pgUOQaitM6GGr4hNwAsmnRFoHzXY1OGrtJaxz1q_ij7QY3kR7X9R3dxzsy9FKbPm3u3s51b9vDA-EOpLZHtJoZfEI1ezdIS2nhY5h5mqKRgWdm2SgGdkPgIuI1QdBrfD-hZeRbvEL54rR0vGRflk7ucZYwPv5jmCdCdgS3G60bVyuzzl9xdUMp_V0jjCYIrU2NxVzm23CadA3Bo_5Khp9ghXWdp0F1et-rH6FzRk-fGnmHRPJnD0Ds_5rZiWJRl3_8VXWLEzJScfJIvuNytgkK905t9v1b4qsLHblJe2w",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8080/api/usuarios/deleteUserByID/1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"usuarios",
+						"deleteUserByID",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:9000/oauth2/token",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "123456789",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "oidc-client",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "code",
+							"value": "jMbmubLK-l4oJLDStkXi5DH3g45a4I_cV9K-n4-xKrmVIsBQch0fneOYu-_JvCFyjTufzTcfv8EujsOa81S_RsXmaZWHMqbR97KcrA4JVvvhjwAwRDOXvog0bW1DEz7G",
+							"type": "text"
+						},
+						{
+							"key": "grant_type",
+							"value": "authorization_code",
+							"type": "text"
+						},
+						{
+							"key": "redirect_uri",
+							"value": "https://oauthdebugger.com/debug",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:9000/oauth2/token",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "9000",
+					"path": [
+						"oauth2",
+						"token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8080/api/pokemons/1",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJraWQiOiI2OTQ2ZjY3OC1kODQ4LTQ5ZDUtYTI2YS1lM2YxZmMxZTI2N2MiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJjYWxyb3MiLCJhdWQiOiJvaWRjLWNsaWVudCIsIm5iZiI6MTcxODI0MTMzNywic2NvcGUiOlsicHJvZmlsZSJdLCJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjkwMDAiLCJleHAiOjE3MTgyNDE2MzcsImlhdCI6MTcxODI0MTMzNywianRpIjoiYWM1ODlkNTYtMzM4Yy00MzU2LWJmZDQtYTEzYmQ5ODRmZmZiIn0.gvdANUeFvhUtoeaZbXkK1toAeEQhWYg-Ii2m0AccFQQZ2-c7JGupWuWvXqx2avky1hgBq0Jr-UOBCuAm7aHpzUkIAI-3PQGHMqx_qqGFJVdOEmqmUeRQTt2DA7_Z95BnOvc7cJYk8ddpfcTvGwjpCbO1SpVmNT8ls8HOBUKgX76MfivGZi1-6du4hN9ty9P3GebpfsH91t_NNOPwbPLCmvOPXG06Nqgd4RtkcWuKss21n-FYfJwhom_ufsW1OjweayOpHvWOv_B5b5aN3b-457IfxPyX7Wm6D3Z-Z0F7hRgHz7ptoGp82BzppbRdkAXTfSYRW_BJRjpRyqdWo2vGcg",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8080/api/pokemons/1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"pokemons",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
